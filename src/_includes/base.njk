@@ -4,10 +4,12 @@
   <head>
     <meta charset="utf-8"/>
     {% if metadata.fixed.fixed == true %}
+
       <meta name="viewport" content="width={{ metadata.fixed.width }}, height={{metadata.fixed.height  }}"/>
     {% else %}
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     {%- endif %}
+
     <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/style.css"/>
     {% block head %}{% endblock %}
   </head>
