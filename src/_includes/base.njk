@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     {% if metadataFixedLayout.fixed == true %}
 
-      <meta name="viewport" content="width={{ metadata.fixed.width }}, height={{metadata.fixed.height  }}"/>
+      <meta name="viewport" content="width={{ metadataFixedLayout.width }}, height={{metadataFixedLayout.height  }}"/>
     {% else %}
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     {%- endif %}

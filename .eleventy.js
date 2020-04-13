@@ -5,7 +5,7 @@ const nunjucks = require('nunjucks');
 const md = require("markdown-it");
 const tocgen = require("./tocgen");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // Copy the `img/` directory
   eleventyConfig.addPassthroughCopy("src/resources");
 
@@ -13,11 +13,11 @@ module.exports = function(eleventyConfig) {
     new nunjucks.FileSystemLoader("src/_includes")
   );
 
-  nunjucksEnv.addFilter('mediaType', function(str) {
+  nunjucksEnv.addFilter('mediaType', function (str) {
     return mime.getType(path.extname(str).slice(1));
   });
 
-  nunjucksEnv.addFilter('makeTocItemsForPage', function(page) {
+  nunjucksEnv.addFilter('makeTocItemsForPage', function (page) {
     return tocgen.makeTocItemsForPage(page);
   });
 
@@ -27,7 +27,7 @@ module.exports = function(eleventyConfig) {
     xhtmlOut: true,
     html: true
   })
-  .use(require('markdown-it-imsize'), {autofill: true});
+    .use(require('markdown-it-imsize'), { autofill: true });
 
   eleventyConfig.setLibrary("md", markdownIt);
 
