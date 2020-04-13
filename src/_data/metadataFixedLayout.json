@@ -1,0 +1,10 @@
+{
+    "fixed": true,
+    "width": "2000",
+    "height": "3000",
+    "properties": {
+        "rendition:layout": "pre-paginated",
+        "rendition:spread": "none",
+        "rendition:orientation": "portrait"
+    }
+}

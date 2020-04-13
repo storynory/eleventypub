@@ -16,8 +16,8 @@
     {% for property, value in metadata.properties -%}
       <meta property="{{property}}">{{value}}</meta>
     {%- endfor %}
-    {% if metadata.fixed.fixed == true %}
-      {% for property, value in metadata.fixed.properties -%}
+    {% if metadataFixedLayout.fixed == true %}
+      {% for property, value in metadataFixedLayout.properties -%}
         <meta property="{{property}}">{{value}}</meta>
       {%- endfor %}
     {% endif %}

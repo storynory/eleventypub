@@ -26,14 +26,5 @@
     "schema:accessModeSufficient": "textual",
     "schema:accessibilityControl": "fullKeyboardControl",
     "schema:accessibilityControl": "fullMouseControl"
-  },
-  "fixed": {
-    "fixed": true,
-    "width": "2000",
-    "height": "3000",
-    "properties": {
-      "rendition:spread": "none",
-      "rendition:orientation": "portrait"
-    }
   }
 }
