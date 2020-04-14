@@ -14,10 +14,12 @@
     {%- endfor %}
 
     {% for property, value in metadata.properties -%}
+      {{  \n }}
       <meta property="{{property}}">{{value}}</meta>
     {%- endfor %}
     {% if metadataFixedLayout.fixed == true %}
       {% for property, value in metadataFixedLayout.properties -%}
+        {{  \n }}
         <meta property="{{property}}">{{value}}</meta>
       {%- endfor %}
     {% endif %}
@@ -25,12 +27,11 @@
   </metadata>
   <manifest>
     {% for resource in resources -%}
+      {{  \n }}
       <item id="rsc{{loop.index}}" href="{{resource}}" media-type="{{resource | mediaType}}" {% if resource == pub.cover.src %} properties="cover-image" {% endif %}/>
     {%- endfor %}
-
     <item id="cover" href="{{pub.cover.page}}" media-type="application/xhtml+xml"/>
     <item id="toc" properties="nav" href="{{pub.toc.page}}" media-type="application/xhtml+xml"/>
-
     {% for page in collections.pages -%}
       {{  \n }}
       <item id="page{{loop.index}}" href=".{{page.url}}index.xhtml" media-type="application/xhtml+xml"/>
