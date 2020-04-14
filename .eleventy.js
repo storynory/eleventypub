@@ -5,6 +5,7 @@ const nunjucks = require('nunjucks');
 const md = require("markdown-it");
 const tocgen = require("./tocgen");
 
+
 module.exports = function (eleventyConfig) {
   // Copy the `img/` directory
   eleventyConfig.addPassthroughCopy("src/resources");
@@ -21,6 +22,8 @@ module.exports = function (eleventyConfig) {
     return tocgen.makeTocItemsForPage(page);
   });
 
+
+
   eleventyConfig.setLibrary("njk", nunjucksEnv);
 
   let markdownIt = require("markdown-it")({
@@ -35,7 +38,7 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
     dir: {
       input: "src",
-      output: "build/epub/EPUB"
+      output: "build/epub.epub/EPUB"
     }
   };
 };

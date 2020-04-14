@@ -13,10 +13,13 @@
       <link rel="{{rel}}" href="{{href}}"/>
     {%- endfor %}
 
+    <meta property="dcterms:modified">{{ help.dateNow}}</meta>
     {% for property, value in metadata.properties -%}
       {{  \n }}
       <meta property="{{property}}">{{value}}</meta>
     {%- endfor %}
+    {{  \n }}
+
     {% if metadataFixedLayout.fixed == true %}
       {% for property, value in metadataFixedLayout.properties -%}
         {{  \n }}

@@ -3,7 +3,6 @@ title: Grasshopper left spread
 bgimage: grasshopper.jpg
 spread: left
 tags: "pages"
-permalink: pages/grasshopper.xhtml
 ---
 
 

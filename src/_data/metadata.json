@@ -14,7 +14,6 @@
     }
   ],
   "properties": {
-    "dcterms:modified": "2019-03-13T00:00:00Z",
     "schema:accessibilityFeature": "alternativeText",
     "schema:accessibilityFeature": "readingOrder",
     "schema:accessibilityFeature": "structuralNavigation",
