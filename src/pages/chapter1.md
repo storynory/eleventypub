@@ -1,5 +1,6 @@
 ---
 title: "Chapter 1: Tiger"
+bgimage: "cat.jpeg"
 ---
 # Chapter 1: Tiger
 

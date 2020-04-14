@@ -1,10 +1,32 @@
 {% extends 'base.njk' %}
 
 {% block head %}
-<title>{% if title %}{{ title }}{% else %}{{metadata.dc.title}}{% endif %}</title>
-<link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/page.css"/>
+    <title>
+        {% if title %}{{ title }}
+        {% else %}{{metadata.dc.title}}
+        {% endif %}
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/page.css"/>
+    {% if bgimage %}
+
+        <style>
+            #page {
+                background-image: url({{EPUBRoot}}/resources/images/{{ bgimage}});
+                background-repeat: no-repeat;
+                height: {{metadataFixedLayout.height}}px;
+                {% if spread %}
+                    width: {{metadataFixedLayout.width * 2}}px;
+                {% else %}
+                    width: {{metadataFixedLayout.width}}px;
+                {% endif %}
+            }
+        </style>
+
+    {% endif %}
 {% endblock %}
 
 {% block content %}
-{{ content | safe}}
+    <div id="page" class="page">
+        {{ content | safe}}
+    </div>
 {% endblock %}
