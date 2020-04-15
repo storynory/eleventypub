@@ -7,7 +7,7 @@
         {% endif %}
     </title>
     <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/page.css"/>
-    {% if bgimage %}
+    {% if (bgimage) and (metadataFixedLayout.fixed == true) %}
 
         <style>
             #page {
