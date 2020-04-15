@@ -1,17 +1,16 @@
 {% extends 'base.njk' %}
-
 {% block head %}
     <title>
         {% if title %}{{ title }}
         {% else %}{{metadata.dc.title}}
         {% endif %}
     </title>
-    <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/page.css"/>
+    <link rel="stylesheet" type="text/css" href="./resources/css/page.css"/>
     {% if (bgimage) and (metadataFixedLayout.fixed == true) %}
 
         <style>
             #page {
-                background-image: url({{EPUBRoot}}/resources/images/{{ bgimage}});
+                background-image: url("./resources/images/{{ bgimage}}");
                 background-repeat: no-repeat;
                 height: {{metadataFixedLayout.height}}px;
                 {% if spread %}

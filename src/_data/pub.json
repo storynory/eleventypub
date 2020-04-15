@@ -8,10 +8,12 @@
     "page": "toc/index.xhtml"
   },
   "readingOrder": [
-    "intro",
-    "grasshopper",
-    "grasshopper-right",
-    "chapter1",
-    "end"
+    "cover",
+    "about",
+    "title",
+    "pg001",
+    "pg002",
+    "acknowledge",
+    "further"
   ]
 }

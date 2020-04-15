@@ -1,5 +1,6 @@
 {
-  "tags": "pages",
-  "layout": "page.njk",
-  "EPUBRoot": "../.."
+    "tags": "pages",
+    "layout": "page.njk",
+    "EPUBRoot": "../..",
+    "permalink": "{{ page.fileSlug }}.xhtml"
 }

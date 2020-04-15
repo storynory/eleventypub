@@ -1,7 +1,6 @@
 ---
-layout: page.njk
-EPUBRoot: ".."
+"permalink": "cover.xhtml"
+"title": "cover"
+"layout": "page.njk"
 ---
-# {{metadata.dc.title}}
-
-![{{pub.cover.alt}}]({{EPUBRoot}}/{{pub.cover.src}})
+# Cover
