@@ -5,6 +5,7 @@
     "properties": {
         "rendition:layout": "pre-paginated",
         "rendition:spread": "none",
-        "rendition:orientation": "portrait"
+        "rendition:orientation": "portrait",
+        "rendition:spread": "auto"
     }
 }

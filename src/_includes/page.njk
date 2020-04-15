@@ -18,6 +18,8 @@
                 {% else %}
                     width: {{metadataFixedLayout.width}}px;
                 {% endif %}
+                {% if spread == "right" %}
+                    background-position: -{{metadataFixedLayout.width}}px 0;{% endif %}
             }
         </style>
 

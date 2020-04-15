@@ -11,4 +11,3 @@ fs.copyFileSync(__dirname + "/extra/mimetype", EPUB_DIR + "/mimetype");
 fs.copyFileSync(__dirname + "/extra/container.xml", EPUB_DIR + "/META-INF/container.xml");
 fs.renameSync(EPUB_DIR + "/EPUB/index.html", EPUB_DIR + "/EPUB/package.opf");
 
-
