@@ -4,10 +4,13 @@ const mime = require('mime');
 const nunjucks = require('nunjucks');
 const md = require("markdown-it");
 const tocgen = require("./tocgen");
-
+const makespans = require("./makespans");
 
 module.exports = function (eleventyConfig) {
   // Copy the `img/` directory
+
+  eleventyConfig.addNunjucksFilter("makespans", makespans)
+
   eleventyConfig.addPassthroughCopy("src/resources");
 
   let nunjucksEnv = new nunjucks.Environment(
@@ -21,6 +24,9 @@ module.exports = function (eleventyConfig) {
   nunjucksEnv.addFilter('makeTocItemsForPage', function (page) {
     return tocgen.makeTocItemsForPage(page);
   });
+
+
+
 
 
 

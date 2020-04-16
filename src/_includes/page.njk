@@ -28,6 +28,6 @@
 
 {% block content %}
     <div id="page" class="page">
-        {{ content | safe}}
+        {{ content | makespans | safe }}
     </div>
 {% endblock %}

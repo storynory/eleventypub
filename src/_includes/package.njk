@@ -14,46 +14,39 @@
     {%- endfor %}
 
     <meta property="dcterms:modified">{{ help.dateNow}}</meta>
-    {% for property, value in metadata.properties -%}
-      {{  \n }}
+    {%- for property, value in metadata.properties %}
       <meta property="{{property}}">{{value}}</meta>
     {%- endfor %}
-    {{  \n }}
 
     {% if metadataFixedLayout.fixed == true %}
-      {% for property, value in metadataFixedLayout.properties -%}
-        {{  \n }}
+      {%- for property, value in metadataFixedLayout.properties %}
         <meta property="{{property}}">{{value}}</meta>
       {%- endfor %}
     {% endif %}
 
   </metadata>
   <manifest>
-    {% for resource in resources -%}
-      {{  \n }}
+    {%- for resource in resources %}
       <item id="rsc{{loop.index}}" href="{{resource}}" media-type="{{resource | mediaType}}" {% if resource == pub.cover.src %} properties="cover-image" {% endif %}/>
     {%- endfor %}
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
-    {% for page in collections.pages -%}
-      {{  \n }}
+    {%- for page in collections.pages -%}
       <item id="page{{loop.index}}" href=".{{page.url}}" media-type="application/xhtml+xml"/>
     {%- endfor %}
   </manifest>
   <spine>
     <itemref idref="cover" linear="no"/>
-    {% if pub.readingOrder -%}
-      {% for item in pub.readingOrder -%}
+    {%- if pub.readingOrder %}
+      {%- for item in pub.readingOrder %}
         {% for page in collections.pages -%}
           {% if page.fileSlug == item -%}
-            {{  \n }}
             <itemref idref="page{{loop.index}}"/>
           {%- endif %}
         {%- endfor %}
       {%- endfor %}
     {% else %}
-      {% for page in collections.pages -%}
-        {{  \n }}
+      {%- for page in collections.pages %}
         <itemref idref="page{{loop.index}}"/>
       {%- endfor %}
     {%- endif %}
