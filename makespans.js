@@ -46,7 +46,7 @@ module.exports = (content) => {
 
     var spanner = function (el) {
         $(el).contents().each(function () {
-            if (this.nodeType == 3) {
+            if (this.nodeType == 3) {  // is a text node so make a span
                 var that = this;
                 var text = $(this).text();
                 makespans(text, function (result) {
@@ -58,8 +58,8 @@ module.exports = (content) => {
 
             }
 
-            else {
-                spanner($(this))
+            else {   // not a text node so continue on way 
+                spanner($(this))  // call self
             }
 
 

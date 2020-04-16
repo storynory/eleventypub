@@ -9,10 +9,9 @@ const makespans = require("./makespans");
 module.exports = function (eleventyConfig) {
   // Copy the `img/` directory
 
-  eleventyConfig.addNunjucksFilter("makespans", makespans)
 
   eleventyConfig.addPassthroughCopy("src/resources");
-
+  eleventyConfig.addNunjucksFilter("makespans", makespans)
   let nunjucksEnv = new nunjucks.Environment(
     new nunjucks.FileSystemLoader("src/_includes")
   );
