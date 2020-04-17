@@ -2,12 +2,19 @@
 
 This is an [11ty](https://11ty.io) project template, configured to build an EPUB 3 fileset. It includes options to validate and run accessibility checks.
 
+#Fixed Layout
+This is primarily for fixed layout epubs - suitable for children's picture books, photobooks, etc.
+It also includes the ability to include media overlays which will sync audio and text.  
+
+It is based on the pageflow original  by marisademeglio  https://github.com/marisademeglio/eleventypub
+and adapted for fixed layout
+
 ## Quickstart
 First, install [11ty](https://11ty.io).
 
 Then, clone this repo and start editing:
 
-    $ git clone https://github.com/marisademeglio/eleventypub.git
+    $ git clone https://github.com/storynory/eleventypub.git
     $ cd eleventypub
     $ npm install
 
@@ -35,7 +42,12 @@ These third party tools enable saving as `.epub`, validating, and performing acc
 - Install [Ace by DAISY](https://daisy.github.io/ace).
 - Install [npm-run-all](https://www.npmjs.com/package/npm-run-all)
 
-After you've unzipped EPUBCheck, set the path to your EPUBCheck jar in [`package.json`](https://github.com/marisademeglio/eleventypub/blob/5af185071780aa650ea79939b671177e1db3591f/package.json#L41-L43).
+After you've unzipped EPUBCheck, set the path to your EPUBCheck jar in `package.json`
+
+NB working on a Macbook, I've found it tricky to install EPUBCheck jar because of Apple's latest security checks and I manually use the dmg packaged version of EPUBCheck for mac  https://www.pagina.gmbh/produkte/epub-checker/
+
+
+
 
 ## Conventions
 
@@ -91,7 +103,8 @@ These are all the layout templates, which create XHTML, OPF, and navigation docu
 
 Yes absolutely! You can do whatever's possible with [11ty](https://11ty.io), which is a lot.
 
-The templates in this project are nunjucks and markdown. The configuration I use for markdown includes having it [output XHTML](https://github.com/marisademeglio/eleventypub/blob/5af185071780aa650ea79939b671177e1db3591f/.eleventy.js#L22). Then, in the `postbuild` step, all `html` files are [renamed to `xhtml`](https://github.com/marisademeglio/eleventypub/blob/5af185071780aa650ea79939b671177e1db3591f/postbuild.js#L16). Even so, there are surely still ways to produce EPUB-invalid XHTML with this setup.
+The templates in this project are nunjucks and markdown. The configuration I use for markdown includes having it [output XHTML](https://github.com/marisademeglio/eleventypub/blob/5af185071780aa650ea79939b671177e1db3591f/.eleventy.js#L22).  
+
 
 So, whatever you try, it's up to you to make sure that your output is valid. Be sure to [configure your tools](#configure-tools) so you can run EPUBCheck.
 
@@ -127,13 +140,23 @@ You can add a `readingOrder` in `pub.json`. It's an array of [fileSlugs](https:/
 
 All file slugs in a custom reading order have to be for files in `pages/`.
 
+
+## Fixed Layout Options
+head to data/metadataFixedLayout.json
+
+Make sure that fixed is set to true or else it will attempt to output a freeflowing epub. 
+Set the width and the hight to the size required.  If you are using background images for your spreads set the dimensions of one page (not the whole double spread).
+
+Fixed layout books have to be pre-paginated
+ "rendition:layout": "pre-paginated",
+ "rendition:orientation": "portrait",  - can be landscape or auto
+
+
+
+
 ## Future
 
 There's lots of room for expansion. Some ideas could be:
 
 - Fine tune TOC autogeneration with some options
-- Have more TOC templates, for example something with a pagelist.
-- Add media overlays (based on what input I'm not sure, maybe some kind of timestamp list)
-- more robust build process
-  - the XHTML-ification is spread out in a few different places)
-  - no control over where files get output (get 11ty's default behavior, e.g. for `chapter1.md`, to output `chapter1/index.html`)
+- Have more TOC templates, for example something with a pagelist

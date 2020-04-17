@@ -22,17 +22,20 @@
       {%- for property, value in metadataFixedLayout.properties %}
         <meta property="{{property}}">{{value}}</meta>
       {%- endfor %}
+
     {% endif %}
 
   </metadata>
   <manifest>
+    <item id="smil" href="overlay.smil" media-type="application/smil+xml"/>
+
     {%- for resource in resources %}
       <item id="rsc{{loop.index}}" href="{{resource}}" media-type="{{resource | mediaType}}" {% if resource == pub.cover.src %} properties="cover-image" {% endif %}/>
     {%- endfor %}
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
     {%- for page in collections.pages -%}
-      <item id="page{{loop.index}}" href=".{{page.url}}" media-type="application/xhtml+xml"/>
+      <item id="page{{loop.index}}" href=".{{page.url}}" {% if page.media =="true" %} media-overlay="smil" {% endif %} media-type="application/xhtml+xml"/>
     {%- endfor %}
   </manifest>
   <spine>

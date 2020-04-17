@@ -9,8 +9,8 @@
                     {%- if (time.start >= page.data.start ) and ( time.start <= page.data.end) %}
                         {% set i = i + 1 %}
                         <par>
-                            <text src="{{page.url}}#{{i }}"/>
-                            <audio src="../audio/grasshopper-ants.m4a" clipbegin="{{time.start}}" clipend="{{time.end}}"></audio>
+                            <text src="./{{page.fileSlug}}.xhtml#{{i }}"/>
+                            <audio src="./resources/audio/grasshopper-ants.m4a" clipBegin="{{time.start}}" clipEnd="{{time.end}}"></audio>
                         </par>
 
                     {%- endif %}

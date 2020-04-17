@@ -4,8 +4,10 @@
     "height": "3000",
     "properties": {
         "rendition:layout": "pre-paginated",
-        "rendition:spread": "none",
         "rendition:orientation": "portrait",
         "rendition:spread": "auto"
-    }
+    },
+    "overlay": true,
+    "duration": "06.32",
+    "media:active-class": "-epub-media-overlay-active"
 }
