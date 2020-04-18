@@ -1,27 +1,8 @@
-body{
-  font-family: 'Trueno', Helvetica, Arial;
-}
+
 
 #toc {
   list-style-type: none;
   line-height: 2rem;
 }
 
-@font-face {
-    font-family: 'Trueno';
-    src: url('../fonts/TruenoLt.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TruenoBd';
-    src: url('../fonts/TruenoBd.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TruenoIt';
-    src: url('../fonts/TruenoLtIt.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+

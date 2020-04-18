@@ -6,28 +6,40 @@
         {% endif %}
     </title>
     <link rel="stylesheet" type="text/css" href="./resources/css/page.css"/>
-    {% if (bgimage) and (metadataFixedLayout.fixed == true) %}
+    <style>
+        {% if (bgimage) and (metadataFixedLayout.fixed == true) %}
 
-        <style>
             #page {
+                position: relative;
+                {% if padding %}
+                    padding: {{padding}};
+                {% endif %}
                 background-image: url("./resources/images/{{ bgimage}}");
                 background-repeat: no-repeat;
                 height: {{metadataFixedLayout.height}}px;
-                {% if spread %}
-                    width: {{metadataFixedLayout.width * 2}}px;
-                {% else %}
-                    width: {{metadataFixedLayout.width}}px;
-                {% endif %}
+                background-size: auto;
                 {% if spread == "right" %}
                     background-position: -{{metadataFixedLayout.width}}px 0;{% endif %}
             }
-        </style>
 
-    {% endif %}
+            {% if styles %}
+                {% for selector, properties in styles %}
+                    {{selector}}
+                    {
+                        {% for property, value in properties %}
+                            {{property}}: {{value}};
+                        {%- endfor %}
+                    }
+                {%- endfor %}
+
+            {% endif %}
+    </style>
+
+{% endif %}
 {% endblock %}
 
 {% block content %}
-    <div id="page" class="page">
-        {{ content | makespans | safe }}
-    </div>
+<div id="page" class="page">
+    {{ content | makespans | safe }}
+</div>
 {% endblock %}
