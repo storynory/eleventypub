@@ -1,0 +1,2084 @@
+[
+  {
+    "word": "THE",
+    "start": 0.12,
+    "end": 0.24,
+    "next": "THE GRASSHOPPER AND",
+    "previous": ""
+  },
+  {
+    "word": "GRASSHOPPER",
+    "start": 0.25,
+    "end": 0.88,
+    "next": "GRASSHOPPER AND THE",
+    "previous": ""
+  },
+  {
+    "word": "AND",
+    "start": 0.88,
+    "end": 0.91,
+    "next": "AND THE ANTS",
+    "previous": ""
+  },
+  {
+    "word": "THE",
+    "start": 1.42,
+    "end": 1.53,
+    "next": "THE ANTS TOLD",
+    "previous": ""
+  },
+  {
+    "word": "ANTS",
+    "start": 1.71,
+    "end": 2.12,
+    "next": "ANTS TOLD BY",
+    "previous": "AND THE ANTS"
+  },
+  {
+    "word": "TOLD",
+    "start": 2.52,
+    "end": 3.16,
+    "next": "TOLD BY THE",
+    "previous": "THE ANTS TOLD"
+  },
+  {
+    "word": "BY",
+    "start": 3.09,
+    "end": 3.26,
+    "next": "BY THE GRASSHOPPER",
+    "previous": "ANTS TOLD BY"
+  },
+  {
+    "word": "THE",
+    "start": 3.26,
+    "end": 3.38,
+    "next": "THE GRASSHOPPER I’M",
+    "previous": "TOLD BY THE"
+  },
+  {
+    "word": "GRASSHOPPER",
+    "start": 3.38,
+    "end": 4.95,
+    "next": "GRASSHOPPER I’M AN",
+    "previous": "BY THE GRASSHOPPER"
+  },
+  {
+    "word": "I’M",
+    "start": 6,
+    "end": 27.06,
+    "next": "I’M AN ARTIST",
+    "previous": "THE GRASSHOPPER I’M"
+  },
+  {
+    "word": "AN",
+    "start": 27.06,
+    "end": 27.35,
+    "next": "AN ARTIST AND",
+    "previous": "GRASSHOPPER I’M AN"
+  },
+  {
+    "word": "ARTIST",
+    "start": 27.35,
+    "end": 27.95,
+    "next": "ARTIST AND AS",
+    "previous": "I’M AN ARTIST"
+  },
+  {
+    "word": "AND",
+    "start": 28.43,
+    "end": 28.59,
+    "next": "AND AS EVERYONE",
+    "previous": "AN ARTIST AND"
+  },
+  {
+    "word": "AS",
+    "start": 28.59,
+    "end": 28.79,
+    "next": "AS EVERYONE KNOWS",
+    "previous": "ARTIST AND AS"
+  },
+  {
+    "word": "EVERYONE",
+    "start": 28.79,
+    "end": 29.21,
+    "next": "EVERYONE KNOWS ARTISTS",
+    "previous": "AND AS EVERYONE"
+  },
+  {
+    "word": "KNOWS",
+    "start": 29.21,
+    "end": 29.63,
+    "next": "KNOWS ARTISTS ARE",
+    "previous": "AS EVERYONE KNOWS"
+  },
+  {
+    "word": "ARTISTS",
+    "start": 29.83,
+    "end": 30.31,
+    "next": "ARTISTS ARE USUALLY",
+    "previous": "EVERYONE KNOWS ARTISTS"
+  },
+  {
+    "word": "ARE",
+    "start": 29.83,
+    "end": 30.31,
+    "next": "ARE USUALLY VERY",
+    "previous": "KNOWS ARTISTS ARE"
+  },
+  {
+    "word": "USUALLY",
+    "start": 30.4,
+    "end": 30.88,
+    "next": "USUALLY VERY POOR",
+    "previous": "ARTISTS ARE USUALLY"
+  },
+  {
+    "word": "VERY",
+    "start": 30.97,
+    "end": 31.13,
+    "next": "VERY POOR BUT",
+    "previous": "ARE USUALLY VERY"
+  },
+  {
+    "word": "POOR",
+    "start": 31.19,
+    "end": 31.72,
+    "next": "POOR BUT NORMALLY",
+    "previous": "USUALLY VERY POOR"
+  },
+  {
+    "word": "BUT",
+    "start": 32.26,
+    "end": 32.38,
+    "next": "BUT NORMALLY I",
+    "previous": "VERY POOR BUT"
+  },
+  {
+    "word": "NORMALLY",
+    "start": 32.43,
+    "end": 32.97,
+    "next": "NORMALLY I DON’T",
+    "previous": "POOR BUT NORMALLY"
+  },
+  {
+    "word": "I",
+    "start": 33.01,
+    "end": 33.25,
+    "next": "I DON’T MIND",
+    "previous": "BUT NORMALLY I"
+  },
+  {
+    "word": "DON’T",
+    "start": 33.429999,
+    "end": 33.459999,
+    "next": "DON’T MIND ABOUT",
+    "previous": "NORMALLY I DON’T"
+  },
+  {
+    "word": "MIND",
+    "start": 33.46,
+    "end": 33.81,
+    "next": "MIND ABOUT THAT",
+    "previous": "I DON’T MIND"
+  },
+  {
+    "word": "ABOUT",
+    "start": 33.91,
+    "end": 34.18,
+    "next": "ABOUT THAT WHEN",
+    "previous": "DON’T MIND ABOUT"
+  },
+  {
+    "word": "THAT",
+    "start": 34.55,
+    "end": 34.75,
+    "next": "THAT WHEN THE",
+    "previous": "MIND ABOUT THAT"
+  },
+  {
+    "word": "WHEN",
+    "start": 38.49,
+    "end": 38.7,
+    "next": "WHEN THE SUN",
+    "previous": "ABOUT THAT WHEN"
+  },
+  {
+    "word": "THE",
+    "start": 38.99,
+    "end": 39.010000000000005,
+    "next": "THE SUN IS",
+    "previous": "THAT WHEN THE"
+  },
+  {
+    "word": "SUN",
+    "start": 39.01,
+    "end": 39.3,
+    "next": "SUN IS SHINING",
+    "previous": "WHEN THE SUN"
+  },
+  {
+    "word": "IS",
+    "start": 39.3,
+    "end": 39.449999999999996,
+    "next": "IS SHINING I",
+    "previous": "THE SUN IS"
+  },
+  {
+    "word": "SHINING",
+    "start": 39.45,
+    "end": 40.09,
+    "next": "SHINING I SIT",
+    "previous": "SUN IS SHINING"
+  },
+  {
+    "word": "I",
+    "start": 40.26,
+    "end": 40.44,
+    "next": "I SIT ON",
+    "previous": "IS SHINING I"
+  },
+  {
+    "word": "SIT",
+    "start": 40.47,
+    "end": 40.8,
+    "next": "SIT ON MY",
+    "previous": "SHINING I SIT"
+  },
+  {
+    "word": "ON",
+    "start": 40.84,
+    "end": 41,
+    "next": "ON MY FAVOURITE",
+    "previous": "I SIT ON"
+  },
+  {
+    "word": "MY",
+    "start": 41,
+    "end": 41.16,
+    "next": "MY FAVOURITE BLADE",
+    "previous": "SIT ON MY"
+  },
+  {
+    "word": "FAVOURITE",
+    "start": 41.16,
+    "end": 41.63999999999999,
+    "next": "FAVOURITE BLADE OF",
+    "previous": "ON MY FAVOURITE"
+  },
+  {
+    "word": "BLADE",
+    "start": 41.7,
+    "end": 42.040000000000006,
+    "next": "BLADE OF GRASS",
+    "previous": "MY FAVOURITE BLADE"
+  },
+  {
+    "word": "OF",
+    "start": 42.04,
+    "end": 42.199999999999996,
+    "next": "OF GRASS AND",
+    "previous": "FAVOURITE BLADE OF"
+  },
+  {
+    "word": "GRASS",
+    "start": 42.230000000000004,
+    "end": 42.830000000000005,
+    "next": "GRASS AND MAKE",
+    "previous": "BLADE OF GRASS"
+  },
+  {
+    "word": "AND",
+    "start": 42.980000000000004,
+    "end": 43.150000000000006,
+    "next": "AND MAKE CHEERFUL",
+    "previous": "OF GRASS AND"
+  },
+  {
+    "word": "MAKE",
+    "start": 43.17,
+    "end": 43.45,
+    "next": "MAKE CHEERFUL MUSIC",
+    "previous": "GRASS AND MAKE"
+  },
+  {
+    "word": "CHEERFUL",
+    "start": 43.55,
+    "end": 44.05,
+    "next": "CHEERFUL MUSIC FOR",
+    "previous": "AND MAKE CHEERFUL"
+  },
+  {
+    "word": "MUSIC",
+    "start": 44.05,
+    "end": 44.519999999999996,
+    "next": "MUSIC FOR EVERYONE",
+    "previous": "MAKE CHEERFUL MUSIC"
+  },
+  {
+    "word": "FOR",
+    "start": 45,
+    "end": 45.11,
+    "next": "FOR EVERYONE TO",
+    "previous": "CHEERFUL MUSIC FOR"
+  },
+  {
+    "word": "EVERYONE",
+    "start": 45.11,
+    "end": 45.38,
+    "next": "EVERYONE TO LISTEN",
+    "previous": "MUSIC FOR EVERYONE"
+  },
+  {
+    "word": "TO",
+    "start": 45.389999,
+    "end": 45.509999,
+    "next": "TO LISTEN TO",
+    "previous": "FOR EVERYONE TO"
+  },
+  {
+    "word": "LISTEN",
+    "start": 45.51,
+    "end": 45.8,
+    "next": "LISTEN TO I",
+    "previous": "EVERYONE TO LISTEN"
+  },
+  {
+    "word": "TO",
+    "start": 45.8,
+    "end": 46.099999999999994,
+    "next": "TO I HAVE",
+    "previous": "TO LISTEN TO"
+  },
+  {
+    "word": "I",
+    "start": 46.83,
+    "end": 46.89,
+    "next": "I HAVE LOTS",
+    "previous": "LISTEN TO I"
+  },
+  {
+    "word": "HAVE",
+    "start": 46.889999,
+    "end": 47.039999,
+    "next": "HAVE LOTS OF",
+    "previous": "TO I HAVE"
+  },
+  {
+    "word": "LOTS",
+    "start": 47.05,
+    "end": 47.48,
+    "next": "LOTS OF FRIENDS",
+    "previous": "I HAVE LOTS"
+  },
+  {
+    "word": "OF",
+    "start": 47.480000000000004,
+    "end": 47.6,
+    "next": "OF FRIENDS AND",
+    "previous": "HAVE LOTS OF"
+  },
+  {
+    "word": "FRIENDS",
+    "start": 47.599999,
+    "end": 48.349999,
+    "next": "FRIENDS AND TOGETHER",
+    "previous": "LOTS OF FRIENDS"
+  },
+  {
+    "word": "AND",
+    "start": 48.61,
+    "end": 48.66,
+    "next": "AND TOGETHER WE’VE",
+    "previous": "OF FRIENDS AND"
+  },
+  {
+    "word": "TOGETHER",
+    "start": 48.66,
+    "end": 49.11,
+    "next": "TOGETHER WE’VE FORMED",
+    "previous": "FRIENDS AND TOGETHER"
+  },
+  {
+    "word": "WE’VE",
+    "start": 49.139999,
+    "end": 49.359999,
+    "next": "WE’VE FORMED AN",
+    "previous": "AND TOGETHER WE’VE"
+  },
+  {
+    "word": "FORMED",
+    "start": 49.37,
+    "end": 49.73,
+    "next": "FORMED AN ORCHESTRA",
+    "previous": "TOGETHER WE’VE FORMED"
+  },
+  {
+    "word": "AN",
+    "start": 49.730000000000004,
+    "end": 49.86000000000001,
+    "next": "AN ORCHESTRA EVERYONE",
+    "previous": "WE’VE FORMED AN"
+  },
+  {
+    "word": "ORCHESTRA",
+    "start": 50.07,
+    "end": 50.65,
+    "next": "ORCHESTRA EVERYONE LOVES",
+    "previous": "FORMED AN ORCHESTRA"
+  },
+  {
+    "word": "EVERYONE",
+    "start": 54.010000000000005,
+    "end": 54.68000000000001,
+    "next": "EVERYONE LOVES OUR",
+    "previous": "AN ORCHESTRA EVERYONE"
+  },
+  {
+    "word": "LOVES",
+    "start": 54.690000999999995,
+    "end": 55.06000099999999,
+    "next": "LOVES OUR MUSIC",
+    "previous": "ORCHESTRA EVERYONE LOVES"
+  },
+  {
+    "word": "OUR",
+    "start": 55.059999000000005,
+    "end": 55.18999900000001,
+    "next": "OUR MUSIC AND",
+    "previous": "EVERYONE LOVES OUR"
+  },
+  {
+    "word": "MUSIC",
+    "start": 55.22999900000001,
+    "end": 55.75999900000001,
+    "next": "MUSIC AND SAYS",
+    "previous": "LOVES OUR MUSIC"
+  },
+  {
+    "word": "AND",
+    "start": 56.15,
+    "end": 56.199999999999996,
+    "next": "AND SAYS HOW",
+    "previous": "OUR MUSIC AND"
+  },
+  {
+    "word": "SAYS",
+    "start": 56.2,
+    "end": 56.470000000000006,
+    "next": "SAYS HOW CHEERFUL",
+    "previous": "MUSIC AND SAYS"
+  },
+  {
+    "word": "HOW",
+    "start": 56.47,
+    "end": 56.629999999999995,
+    "next": "HOW CHEERFUL IT",
+    "previous": "AND SAYS HOW"
+  },
+  {
+    "word": "CHEERFUL",
+    "start": 56.67,
+    "end": 57.02,
+    "next": "CHEERFUL IT MAKES",
+    "previous": "SAYS HOW CHEERFUL"
+  },
+  {
+    "word": "IT",
+    "start": 57.08,
+    "end": 57.18,
+    "next": "IT MAKES THEM",
+    "previous": "HOW CHEERFUL IT"
+  },
+  {
+    "word": "MAKES",
+    "start": 57.19,
+    "end": 57.5,
+    "next": "MAKES THEM FEEL",
+    "previous": "CHEERFUL IT MAKES"
+  },
+  {
+    "word": "THEM",
+    "start": 57.5,
+    "end": 57.67,
+    "next": "THEM FEEL WELL",
+    "previous": "IT MAKES THEM"
+  },
+  {
+    "word": "FEEL",
+    "start": 57.67,
+    "end": 58.11,
+    "next": "FEEL WELL ALMOST",
+    "previous": "MAKES THEM FEEL"
+  },
+  {
+    "word": "WELL",
+    "start": 58.65,
+    "end": 58.99,
+    "next": "WELL ALMOST EVERYONE",
+    "previous": "THEM FEEL WELL"
+  },
+  {
+    "word": "ALMOST",
+    "start": 59.59,
+    "end": 59.870000000000005,
+    "next": "ALMOST EVERYONE THERE’S",
+    "previous": "FEEL WELL ALMOST"
+  },
+  {
+    "word": "EVERYONE",
+    "start": 59.91,
+    "end": 60.489999999999995,
+    "next": "EVERYONE THERE’S A",
+    "previous": "WELL ALMOST EVERYONE"
+  },
+  {
+    "word": "THERE’S",
+    "start": 65.71000000000001,
+    "end": 65.88000000000001,
+    "next": "THERE’S A FAMILY",
+    "previous": "ALMOST EVERYONE THERE’S"
+  },
+  {
+    "word": "A",
+    "start": 65.88,
+    "end": 65.97999999999999,
+    "next": "A FAMILY OF",
+    "previous": "EVERYONE THERE’S A"
+  },
+  {
+    "word": "FAMILY",
+    "start": 65.98,
+    "end": 66.42,
+    "next": "FAMILY OF ANTS",
+    "previous": "THERE’S A FAMILY"
+  },
+  {
+    "word": "OF",
+    "start": 66.42,
+    "end": 66.55,
+    "next": "OF ANTS WHO",
+    "previous": "A FAMILY OF"
+  },
+  {
+    "word": "ANTS",
+    "start": 66.74,
+    "end": 67.08999999999999,
+    "next": "ANTS WHO NEVER",
+    "previous": "FAMILY OF ANTS"
+  },
+  {
+    "word": "WHO",
+    "start": 67.099999,
+    "end": 67.259999,
+    "next": "WHO NEVER STOP",
+    "previous": "OF ANTS WHO"
+  },
+  {
+    "word": "NEVER",
+    "start": 67.259999,
+    "end": 67.66999899999999,
+    "next": "NEVER STOP TO",
+    "previous": "ANTS WHO NEVER"
+  },
+  {
+    "word": "STOP",
+    "start": 67.679999,
+    "end": 68.069999,
+    "next": "STOP TO LISTEN",
+    "previous": "WHO NEVER STOP"
+  },
+  {
+    "word": "TO",
+    "start": 68.07,
+    "end": 68.21,
+    "next": "TO LISTEN THEY",
+    "previous": "NEVER STOP TO"
+  },
+  {
+    "word": "LISTEN",
+    "start": 68.27,
+    "end": 68.67,
+    "next": "LISTEN THEY TAKE",
+    "previous": "STOP TO LISTEN"
+  },
+  {
+    "word": "THEY",
+    "start": 69.16,
+    "end": 69.32,
+    "next": "THEY TAKE THEMSELVES",
+    "previous": "TO LISTEN THEY"
+  },
+  {
+    "word": "TAKE",
+    "start": 69.339999,
+    "end": 69.589999,
+    "next": "TAKE THEMSELVES FAR",
+    "previous": "LISTEN THEY TAKE"
+  },
+  {
+    "word": "THEMSELVES",
+    "start": 69.589999,
+    "end": 69.999999,
+    "next": "THEMSELVES FAR TOO",
+    "previous": "THEY TAKE THEMSELVES"
+  },
+  {
+    "word": "FAR",
+    "start": 70,
+    "end": 70.03,
+    "next": "FAR TOO SERIOUSLY",
+    "previous": "TAKE THEMSELVES FAR"
+  },
+  {
+    "word": "TOO",
+    "start": 70.359999,
+    "end": 70.519999,
+    "next": "TOO SERIOUSLY FOR",
+    "previous": "THEMSELVES FAR TOO"
+  },
+  {
+    "word": "SERIOUSLY",
+    "start": 70.52,
+    "end": 71.14999999999999,
+    "next": "SERIOUSLY FOR MUSIC",
+    "previous": "FAR TOO SERIOUSLY"
+  },
+  {
+    "word": "FOR",
+    "start": 71.15,
+    "end": 71.27000000000001,
+    "next": "FOR MUSIC OR",
+    "previous": "TOO SERIOUSLY FOR"
+  },
+  {
+    "word": "MUSIC",
+    "start": 71.27,
+    "end": 71.77,
+    "next": "MUSIC OR ENJOYMENT",
+    "previous": "SERIOUSLY FOR MUSIC"
+  },
+  {
+    "word": "OR",
+    "start": 71.779999,
+    "end": 72.03999900000001,
+    "next": "OR ENJOYMENT ALL",
+    "previous": "FOR MUSIC OR"
+  },
+  {
+    "word": "ENJOYMENT",
+    "start": 72.039999,
+    "end": 72.819999,
+    "next": "ENJOYMENT ALL THEY",
+    "previous": "MUSIC OR ENJOYMENT"
+  },
+  {
+    "word": "ALL",
+    "start": 73.33,
+    "end": 73.67999999999999,
+    "next": "ALL THEY DO",
+    "previous": "OR ENJOYMENT ALL"
+  },
+  {
+    "word": "THEY",
+    "next": "THEY DO IS",
+    "previous": "ENJOYMENT ALL THEY"
+  },
+  {
+    "word": "DO",
+    "next": "DO IS WORK",
+    "previous": "ALL THEY DO"
+  },
+  {
+    "word": "IS",
+    "start": 74.36,
+    "end": 74.38,
+    "next": "IS WORK WORK",
+    "previous": "THEY DO IS"
+  },
+  {
+    "word": "WORK",
+    "start": 74.38,
+    "end": 74.92999999999999,
+    "next": "WORK WORK WORK",
+    "previous": "DO IS WORK"
+  },
+  {
+    "word": "WORK",
+    "start": 75.05,
+    "end": 75.63,
+    "next": "WORK WORK EVEN",
+    "previous": "IS WORK WORK"
+  },
+  {
+    "word": "WORK",
+    "start": 75.64,
+    "end": 76.27,
+    "next": "WORK EVEN WHEN",
+    "previous": "WORK WORK WORK"
+  },
+  {
+    "word": "EVEN",
+    "start": 76.85,
+    "end": 77.03999999999999,
+    "next": "EVEN WHEN THE",
+    "previous": "WORK WORK EVEN"
+  },
+  {
+    "word": "WHEN",
+    "start": 77.04,
+    "end": 77.22000000000001,
+    "next": "WHEN THE SUN",
+    "previous": "WORK EVEN WHEN"
+  },
+  {
+    "word": "THE",
+    "start": 77.22,
+    "end": 77.34,
+    "next": "THE SUN IS",
+    "previous": "EVEN WHEN THE"
+  },
+  {
+    "word": "SUN",
+    "start": 77.34,
+    "end": 77.63000000000001,
+    "next": "SUN IS SHINING",
+    "previous": "WHEN THE SUN"
+  },
+  {
+    "word": "IS",
+    "start": 77.63,
+    "end": 77.75999999999999,
+    "next": "IS SHINING HEY",
+    "previous": "THE SUN IS"
+  },
+  {
+    "word": "SHINING",
+    "start": 77.76,
+    "end": 78.34,
+    "next": "SHINING HEY YOU",
+    "previous": "SUN IS SHINING"
+  },
+  {
+    "word": "HEY",
+    "start": 78.93,
+    "end": 79.29,
+    "next": "HEY YOU ANTS",
+    "previous": "IS SHINING HEY"
+  },
+  {
+    "word": "YOU",
+    "start": 79.29,
+    "end": 79.53,
+    "next": "YOU ANTS I",
+    "previous": "SHINING HEY YOU"
+  },
+  {
+    "word": "ANTS",
+    "start": 79.78,
+    "end": 80.2,
+    "next": "ANTS I SAID",
+    "previous": "HEY YOU ANTS"
+  },
+  {
+    "word": "I",
+    "start": 80.46000000000001,
+    "end": 80.67,
+    "next": "I SAID TO",
+    "previous": "YOU ANTS I"
+  },
+  {
+    "word": "SAID",
+    "start": 80.679999,
+    "end": 80.91999899999999,
+    "next": "SAID TO THEM",
+    "previous": "ANTS I SAID"
+  },
+  {
+    "word": "TO",
+    "start": 80.929999,
+    "end": 81.05999899999999,
+    "next": "TO THEM IT’S",
+    "previous": "I SAID TO"
+  },
+  {
+    "word": "THEM",
+    "start": 81.059999,
+    "end": 81.45999900000001,
+    "next": "THEM IT’S A",
+    "previous": "SAID TO THEM"
+  },
+  {
+    "word": "IT’S",
+    "start": 82.24,
+    "end": 82.44999999999999,
+    "next": "IT’S A LOVELY",
+    "previous": "TO THEM IT’S"
+  },
+  {
+    "word": "A",
+    "start": 82.45,
+    "end": 82.53,
+    "next": "A LOVELY SUMMER’S",
+    "previous": "THEM IT’S A"
+  },
+  {
+    "word": "LOVELY",
+    "start": 82.53,
+    "end": 83.12,
+    "next": "LOVELY SUMMER’S DAY",
+    "previous": "IT’S A LOVELY"
+  },
+  {
+    "word": "SUMMER’S",
+    "start": 83.13,
+    "end": 83.72,
+    "next": "SUMMER’S DAY WHY",
+    "previous": "A LOVELY SUMMER’S"
+  },
+  {
+    "word": "DAY",
+    "start": 83.719999,
+    "end": 84.169999,
+    "next": "DAY WHY DON’T",
+    "previous": "LOVELY SUMMER’S DAY"
+  },
+  {
+    "word": "WHY",
+    "start": 84.7,
+    "end": 84.89,
+    "next": "WHY DON’T YOU",
+    "previous": "SUMMER’S DAY WHY"
+  },
+  {
+    "word": "DON’T",
+    "start": 84.929999,
+    "end": 85.149999,
+    "next": "DON’T YOU STOP",
+    "previous": "DAY WHY DON’T"
+  },
+  {
+    "word": "YOU",
+    "start": 85.15,
+    "end": 85.27000000000001,
+    "next": "YOU STOP FOR",
+    "previous": "WHY DON’T YOU"
+  },
+  {
+    "word": "STOP",
+    "start": 85.27,
+    "end": 85.6,
+    "next": "STOP FOR A",
+    "previous": "DON’T YOU STOP"
+  },
+  {
+    "word": "FOR",
+    "start": 85.61,
+    "end": 85.78,
+    "next": "FOR A LITTLE",
+    "previous": "YOU STOP FOR"
+  },
+  {
+    "word": "A",
+    "start": 85.78,
+    "end": 85.81,
+    "next": "A LITTLE WHILE",
+    "previous": "STOP FOR A"
+  },
+  {
+    "word": "LITTLE",
+    "start": 85.809999,
+    "end": 86.119999,
+    "next": "LITTLE WHILE AND",
+    "previous": "FOR A LITTLE"
+  },
+  {
+    "word": "WHILE",
+    "start": 86.12,
+    "end": 86.62,
+    "next": "WHILE AND LISTEN",
+    "previous": "A LITTLE WHILE"
+  },
+  {
+    "word": "AND",
+    "start": 86.95,
+    "end": 86.98,
+    "next": "AND LISTEN TO",
+    "previous": "LITTLE WHILE AND"
+  },
+  {
+    "word": "LISTEN",
+    "start": 86.99,
+    "end": 87.49,
+    "next": "LISTEN TO MY",
+    "previous": "WHILE AND LISTEN"
+  },
+  {
+    "word": "TO",
+    "start": 87.49,
+    "end": 87.66,
+    "next": "TO MY SWEET",
+    "previous": "AND LISTEN TO"
+  },
+  {
+    "word": "MY",
+    "start": 87.66,
+    "end": 87.86999999999999,
+    "next": "MY SWEET MUSIC",
+    "previous": "LISTEN TO MY"
+  },
+  {
+    "word": "SWEET",
+    "start": 87.87,
+    "end": 88.48,
+    "next": "SWEET MUSIC NO",
+    "previous": "TO MY SWEET"
+  },
+  {
+    "word": "MUSIC",
+    "start": 88.76,
+    "end": 89.56,
+    "next": "MUSIC NO TIME",
+    "previous": "MY SWEET MUSIC"
+  },
+  {
+    "word": "NO",
+    "start": 90.629999,
+    "end": 90.919999,
+    "next": "NO TIME TO",
+    "previous": "SWEET MUSIC NO"
+  },
+  {
+    "word": "TIME",
+    "start": 91.07,
+    "end": 91.25999999999999,
+    "next": "TIME TO STOP",
+    "previous": "MUSIC NO TIME"
+  },
+  {
+    "word": "TO",
+    "start": 91.41,
+    "end": 91.56,
+    "next": "TO STOP ONE",
+    "previous": "NO TIME TO"
+  },
+  {
+    "word": "STOP",
+    "start": 91.73,
+    "end": 92.11,
+    "next": "STOP ONE OF",
+    "previous": "TIME TO STOP"
+  },
+  {
+    "word": "ONE",
+    "start": 92.85000000000001,
+    "end": 93.01,
+    "next": "ONE OF THEM",
+    "previous": "TO STOP ONE"
+  },
+  {
+    "word": "OF",
+    "start": 93.01,
+    "end": 93.1,
+    "next": "OF THEM SAID",
+    "previous": "STOP ONE OF"
+  },
+  {
+    "word": "THEM",
+    "start": 93.1,
+    "end": 93.18,
+    "next": "THEM SAID PANTING",
+    "previous": "ONE OF THEM"
+  },
+  {
+    "word": "SAID",
+    "start": 93.18,
+    "end": 93.4,
+    "next": "SAID PANTING AWAY",
+    "previous": "OF THEM SAID"
+  },
+  {
+    "word": "PANTING",
+    "start": 94.35,
+    "end": 94.66,
+    "next": "PANTING AWAY WE’RE",
+    "previous": "THEM SAID PANTING"
+  },
+  {
+    "word": "AWAY",
+    "start": 94.66,
+    "end": 95.06,
+    "next": "AWAY WE’RE FAR",
+    "previous": "SAID PANTING AWAY"
+  },
+  {
+    "word": "WE’RE",
+    "start": 96.19,
+    "end": 96.21,
+    "next": "WE’RE FAR TOO",
+    "previous": "PANTING AWAY WE’RE"
+  },
+  {
+    "word": "FAR",
+    "start": 96.21,
+    "end": 96.36,
+    "next": "FAR TOO BUSY",
+    "previous": "AWAY WE’RE FAR"
+  },
+  {
+    "word": "TOO",
+    "start": 96.55,
+    "end": 96.73,
+    "next": "TOO BUSY STOCKING",
+    "previous": "WE’RE FAR TOO"
+  },
+  {
+    "word": "BUSY",
+    "start": 96.76,
+    "end": 97.17,
+    "next": "BUSY STOCKING UP",
+    "previous": "FAR TOO BUSY"
+  },
+  {
+    "word": "STOCKING",
+    "start": 97.56,
+    "end": 97.7,
+    "next": "STOCKING UP FOOD",
+    "previous": "TOO BUSY STOCKING"
+  },
+  {
+    "word": "UP",
+    "start": 97.7,
+    "end": 97.86,
+    "next": "UP FOOD FOR",
+    "previous": "BUSY STOCKING UP"
+  },
+  {
+    "word": "FOOD",
+    "start": 97.95,
+    "end": 98.3,
+    "next": "FOOD FOR WINTER",
+    "previous": "STOCKING UP FOOD"
+  },
+  {
+    "word": "FOR",
+    "start": 98.309999,
+    "end": 98.499999,
+    "next": "FOR WINTER THE",
+    "previous": "UP FOOD FOR"
+  },
+  {
+    "word": "WINTER",
+    "start": 98.5,
+    "end": 98.73,
+    "next": "WINTER THE MONTHS",
+    "previous": "FOOD FOR WINTER"
+  },
+  {
+    "word": "THE",
+    "start": 98.73,
+    "end": 98.75,
+    "next": "THE MONTHS WENT",
+    "previous": "FOR WINTER THE"
+  },
+  {
+    "word": "MONTHS",
+    "start": 108.17,
+    "end": 108.60000000000001,
+    "next": "MONTHS WENT BY",
+    "previous": "WINTER THE MONTHS"
+  },
+  {
+    "word": "WENT",
+    "start": 108.63,
+    "end": 108.88,
+    "next": "WENT BY AND",
+    "previous": "THE MONTHS WENT"
+  },
+  {
+    "word": "BY",
+    "start": 108.9,
+    "end": 109.42,
+    "next": "BY AND THE",
+    "previous": "MONTHS WENT BY"
+  },
+  {
+    "word": "AND",
+    "start": 109.74,
+    "end": 109.94,
+    "next": "AND THE DAYS",
+    "previous": "WENT BY AND"
+  },
+  {
+    "word": "THE",
+    "start": 109.94,
+    "end": 110.1,
+    "next": "THE DAYS GOT",
+    "previous": "BY AND THE"
+  },
+  {
+    "word": "DAYS",
+    "start": 110.12,
+    "end": 110.5,
+    "next": "DAYS GOT SHORTER",
+    "previous": "AND THE DAYS"
+  },
+  {
+    "word": "GOT",
+    "start": 110.53,
+    "end": 110.73,
+    "next": "GOT SHORTER AND",
+    "previous": "THE DAYS GOT"
+  },
+  {
+    "word": "SHORTER",
+    "start": 110.73,
+    "end": 111.15,
+    "next": "SHORTER AND COLDER",
+    "previous": "DAYS GOT SHORTER"
+  },
+  {
+    "word": "AND",
+    "start": 111.42,
+    "end": 111.57000000000001,
+    "next": "AND COLDER I",
+    "previous": "GOT SHORTER AND"
+  },
+  {
+    "word": "COLDER",
+    "start": 111.58,
+    "end": 112.27,
+    "next": "COLDER I WAS",
+    "previous": "SHORTER AND COLDER"
+  },
+  {
+    "word": "I",
+    "start": 112.97,
+    "end": 113.07,
+    "next": "I WAS SHIVERING",
+    "previous": "AND COLDER I"
+  },
+  {
+    "word": "WAS",
+    "start": 113.07,
+    "end": 113.16,
+    "next": "WAS SHIVERING SO",
+    "previous": "COLDER I WAS"
+  },
+  {
+    "word": "SHIVERING",
+    "start": 113.16,
+    "end": 113.89,
+    "next": "SHIVERING SO MUCH",
+    "previous": "I WAS SHIVERING"
+  },
+  {
+    "word": "SO",
+    "start": 113.9,
+    "end": 114.30000000000001,
+    "next": "SO MUCH THAT",
+    "previous": "WAS SHIVERING SO"
+  },
+  {
+    "word": "MUCH",
+    "start": 114.3,
+    "end": 114.7,
+    "next": "MUCH THAT I",
+    "previous": "SHIVERING SO MUCH"
+  },
+  {
+    "word": "THAT",
+    "start": 114.7,
+    "end": 114.83,
+    "next": "THAT I COULDN’T",
+    "previous": "SO MUCH THAT"
+  },
+  {
+    "word": "I",
+    "start": 114.83,
+    "end": 114.95,
+    "next": "I COULDN’T EVEN",
+    "previous": "MUCH THAT I"
+  },
+  {
+    "word": "COULDN’T",
+    "start": 114.97,
+    "end": 115.32,
+    "next": "COULDN’T EVEN SING",
+    "previous": "THAT I COULDN’T"
+  },
+  {
+    "word": "EVEN",
+    "start": 115.33,
+    "end": 115.72,
+    "next": "EVEN SING A",
+    "previous": "I COULDN’T EVEN"
+  },
+  {
+    "word": "SING",
+    "start": 115.75,
+    "end": 116.51,
+    "next": "SING A HARD",
+    "previous": "COULDN’T EVEN SING"
+  },
+  {
+    "word": "A",
+    "start": 117.2,
+    "end": 117.3,
+    "next": "A HARD FROST",
+    "previous": "EVEN SING A"
+  },
+  {
+    "word": "HARD",
+    "start": 117.3,
+    "end": 117.72,
+    "next": "HARD FROST WAS",
+    "previous": "SING A HARD"
+  },
+  {
+    "word": "FROST",
+    "start": 117.76,
+    "end": 118.29,
+    "next": "FROST WAS ON",
+    "previous": "A HARD FROST"
+  },
+  {
+    "word": "WAS",
+    "start": 118.28999999999999,
+    "end": 118.44999999999999,
+    "next": "WAS ON THE",
+    "previous": "HARD FROST WAS"
+  },
+  {
+    "word": "ON",
+    "start": 118.45,
+    "end": 118.64,
+    "next": "ON THE GROUND",
+    "previous": "FROST WAS ON"
+  },
+  {
+    "word": "THE",
+    "start": 118.639999,
+    "end": 118.779999,
+    "next": "THE GROUND AND",
+    "previous": "WAS ON THE"
+  },
+  {
+    "word": "GROUND",
+    "start": 118.8,
+    "end": 119.42999999999999,
+    "next": "GROUND AND I",
+    "previous": "ON THE GROUND"
+  },
+  {
+    "word": "AND",
+    "start": 119.87,
+    "end": 120.06,
+    "next": "AND I COULDN’T",
+    "previous": "THE GROUND AND"
+  },
+  {
+    "word": "I",
+    "start": 120.059999,
+    "end": 120.14999900000001,
+    "next": "I COULDN’T EVEN",
+    "previous": "GROUND AND I"
+  },
+  {
+    "word": "COULDN’T",
+    "start": 120.16,
+    "end": 120.47999999999999,
+    "next": "COULDN’T EVEN FIND",
+    "previous": "AND I COULDN’T"
+  },
+  {
+    "word": "EVEN",
+    "start": 120.49,
+    "end": 120.83999999999999,
+    "next": "EVEN FIND A",
+    "previous": "I COULDN’T EVEN"
+  },
+  {
+    "word": "FIND",
+    "start": 120.84,
+    "end": 121.16,
+    "next": "FIND A CRUMB",
+    "previous": "COULDN’T EVEN FIND"
+  },
+  {
+    "word": "A",
+    "start": 121.16,
+    "end": 121.22,
+    "next": "A CRUMB TO",
+    "previous": "EVEN FIND A"
+  },
+  {
+    "word": "CRUMB",
+    "start": 121.219999,
+    "end": 121.599999,
+    "next": "CRUMB TO EAT",
+    "previous": "FIND A CRUMB"
+  },
+  {
+    "word": "TO",
+    "start": 121.599999,
+    "end": 121.72999899999999,
+    "next": "TO EAT I",
+    "previous": "A CRUMB TO"
+  },
+  {
+    "word": "EAT",
+    "start": 121.73,
+    "end": 122.19,
+    "next": "EAT I WAS",
+    "previous": "CRUMB TO EAT"
+  },
+  {
+    "word": "I",
+    "start": 122.849999,
+    "end": 122.939999,
+    "next": "I WAS SO",
+    "previous": "TO EAT I"
+  },
+  {
+    "word": "WAS",
+    "start": 122.94,
+    "end": 123.13,
+    "next": "WAS SO HUNGRY",
+    "previous": "EAT I WAS"
+  },
+  {
+    "word": "SO",
+    "start": 123.13,
+    "end": 123.78999999999999,
+    "next": "SO HUNGRY SO",
+    "previous": "I WAS SO"
+  },
+  {
+    "word": "HUNGRY",
+    "start": 124.02,
+    "end": 124.78999999999999,
+    "next": "HUNGRY SO I",
+    "previous": "WAS SO HUNGRY"
+  },
+  {
+    "word": "SO",
+    "start": 126.24,
+    "end": 126.44,
+    "next": "SO I WENT",
+    "previous": "SO HUNGRY SO"
+  },
+  {
+    "word": "I",
+    "start": 126.440001,
+    "end": 126.530001,
+    "next": "I WENT TO",
+    "previous": "HUNGRY SO I"
+  },
+  {
+    "word": "WENT",
+    "start": 126.529999,
+    "end": 126.619999,
+    "next": "WENT TO SEE",
+    "previous": "SO I WENT"
+  },
+  {
+    "word": "TO",
+    "start": 126.76,
+    "end": 126.95,
+    "next": "TO SEE THAT",
+    "previous": "I WENT TO"
+  },
+  {
+    "word": "SEE",
+    "start": 126.94999899999999,
+    "end": 127.24999899999999,
+    "next": "SEE THAT BUSY",
+    "previous": "WENT TO SEE"
+  },
+  {
+    "word": "THAT",
+    "start": 127.25,
+    "end": 127.47,
+    "next": "THAT BUSY FAMILY",
+    "previous": "TO SEE THAT"
+  },
+  {
+    "word": "BUSY",
+    "start": "120.08",
+    "end": "127.92",
+    "next": "BUSY FAMILY OF",
+    "previous": "SEE THAT BUSY"
+  },
+  {
+    "word": "FAMILY",
+    "start": 127.92,
+    "end": 128.42000000000002,
+    "next": "FAMILY OF ANTS",
+    "previous": "THAT BUSY FAMILY"
+  },
+  {
+    "word": "OF",
+    "start": 128.42,
+    "end": 128.55999999999997,
+    "next": "OF ANTS AND",
+    "previous": "BUSY FAMILY OF"
+  },
+  {
+    "word": "ANTS",
+    "start": 128.66,
+    "end": 129.01,
+    "next": "ANTS AND SAID",
+    "previous": "FAMILY OF ANTS"
+  },
+  {
+    "word": "AND",
+    "start": 129.06,
+    "end": 129.22,
+    "next": "AND SAID PLEASE",
+    "previous": "OF ANTS AND"
+  },
+  {
+    "word": "SAID",
+    "start": 129.22,
+    "end": 129.53,
+    "next": "SAID PLEASE SIRS",
+    "previous": "ANTS AND SAID"
+  },
+  {
+    "word": "PLEASE",
+    "start": 130.85,
+    "end": 131.19,
+    "next": "PLEASE SIRS I’M",
+    "previous": "AND SAID PLEASE"
+  },
+  {
+    "word": "SIRS",
+    "start": 131.23,
+    "end": 131.75,
+    "next": "SIRS I’M A",
+    "previous": "SAID PLEASE SIRS"
+  },
+  {
+    "word": "I’M",
+    "start": 132.23,
+    "end": 132.42999999999998,
+    "next": "I’M A POOR",
+    "previous": "PLEASE SIRS I’M"
+  },
+  {
+    "word": "A",
+    "start": 132.43,
+    "end": 132.51000000000002,
+    "next": "A POOR HUNGRY",
+    "previous": "SIRS I’M A"
+  },
+  {
+    "word": "POOR",
+    "start": 132.51,
+    "end": 133.17,
+    "next": "POOR HUNGRY MUSICIAN",
+    "previous": "I’M A POOR"
+  },
+  {
+    "word": "HUNGRY",
+    "start": 133.21,
+    "end": 134,
+    "next": "HUNGRY MUSICIAN SPARE",
+    "previous": "A POOR HUNGRY"
+  },
+  {
+    "word": "MUSICIAN",
+    "start": 134,
+    "end": 134.78,
+    "next": "MUSICIAN SPARE ME",
+    "previous": "POOR HUNGRY MUSICIAN"
+  },
+  {
+    "word": "SPARE",
+    "start": 135.179999,
+    "end": 135.72999900000002,
+    "next": "SPARE ME A",
+    "previous": "HUNGRY MUSICIAN SPARE"
+  },
+  {
+    "word": "ME",
+    "start": 135.74,
+    "end": 135.98000000000002,
+    "next": "ME A FEW",
+    "previous": "MUSICIAN SPARE ME"
+  },
+  {
+    "word": "A",
+    "start": 135.98,
+    "end": 136.07999999999998,
+    "next": "A FEW CRUMBS",
+    "previous": "SPARE ME A"
+  },
+  {
+    "word": "FEW",
+    "start": 136.08,
+    "end": 136.39000000000001,
+    "next": "FEW CRUMBS FROM",
+    "previous": "ME A FEW"
+  },
+  {
+    "word": "CRUMBS",
+    "start": 136.4,
+    "end": 136.91,
+    "next": "CRUMBS FROM YOUR",
+    "previous": "A FEW CRUMBS"
+  },
+  {
+    "word": "FROM",
+    "start": 136.91,
+    "end": 137.15,
+    "next": "FROM YOUR STORE",
+    "previous": "FEW CRUMBS FROM"
+  },
+  {
+    "word": "YOUR",
+    "start": 137.15,
+    "end": 137.3,
+    "next": "YOUR STORE OF",
+    "previous": "CRUMBS FROM YOUR"
+  },
+  {
+    "word": "STORE",
+    "start": 137.3,
+    "end": 137.74,
+    "next": "STORE OF FOOD",
+    "previous": "FROM YOUR STORE"
+  },
+  {
+    "word": "OF",
+    "start": 137.75,
+    "end": 137.8,
+    "next": "OF FOOD BUT",
+    "previous": "YOUR STORE OF"
+  },
+  {
+    "word": "FOOD",
+    "start": 137.8,
+    "end": 138.41000000000003,
+    "next": "FOOD BUT DO",
+    "previous": "STORE OF FOOD"
+  },
+  {
+    "word": "BUT",
+    "start": 139.53,
+    "end": 139.77,
+    "next": "BUT DO YOU",
+    "previous": "OF FOOD BUT"
+  },
+  {
+    "word": "DO",
+    "start": 139.849999,
+    "end": 139.949999,
+    "next": "DO YOU KNOW",
+    "previous": "FOOD BUT DO"
+  },
+  {
+    "word": "YOU",
+    "start": 139.95,
+    "end": 140.16,
+    "next": "YOU KNOW WHAT",
+    "previous": "BUT DO YOU"
+  },
+  {
+    "word": "KNOW",
+    "start": 140.16,
+    "end": 140.32999999999998,
+    "next": "KNOW WHAT THOSE",
+    "previous": "DO YOU KNOW"
+  },
+  {
+    "word": "WHAT",
+    "start": 140.33,
+    "end": 140.85000000000002,
+    "next": "WHAT THOSE ANTS",
+    "previous": "YOU KNOW WHAT"
+  },
+  {
+    "word": "THOSE",
+    "start": 141.389999,
+    "end": 141.73999899999998,
+    "next": "THOSE ANTS JUST",
+    "previous": "KNOW WHAT THOSE"
+  },
+  {
+    "word": "ANTS",
+    "start": 141.809999,
+    "end": 142.179999,
+    "next": "ANTS JUST TURNED",
+    "previous": "WHAT THOSE ANTS"
+  },
+  {
+    "word": "JUST",
+    "start": 142.18,
+    "end": 142.49,
+    "next": "JUST TURNED THEIR",
+    "previous": "THOSE ANTS JUST"
+  },
+  {
+    "word": "TURNED",
+    "start": 142.6,
+    "end": 142.95,
+    "next": "TURNED THEIR NOSES",
+    "previous": "ANTS JUST TURNED"
+  },
+  {
+    "word": "THEIR",
+    "start": 142.949999,
+    "end": 143.069999,
+    "next": "THEIR NOSES UP",
+    "previous": "JUST TURNED THEIR"
+  },
+  {
+    "word": "NOSES",
+    "start": 143.07,
+    "end": 143.59,
+    "next": "NOSES UP AT",
+    "previous": "TURNED THEIR NOSES"
+  },
+  {
+    "word": "UP",
+    "start": 143.59,
+    "end": 143.76,
+    "next": "UP AT ME",
+    "previous": "THEIR NOSES UP"
+  },
+  {
+    "word": "AT",
+    "start": 143.76,
+    "end": 143.88,
+    "next": "AT ME THEY",
+    "previous": "NOSES UP AT"
+  },
+  {
+    "word": "ME",
+    "start": 143.879999,
+    "end": 144.449999,
+    "next": "ME THEY WERE",
+    "previous": "UP AT ME"
+  },
+  {
+    "word": "THEY",
+    "start": 144.799999,
+    "end": 144.969999,
+    "next": "THEY WERE SO",
+    "previous": "AT ME THEY"
+  },
+  {
+    "word": "WERE",
+    "start": 144.969999,
+    "end": 145.109999,
+    "next": "WERE SO STINGY",
+    "previous": "ME THEY WERE"
+  },
+  {
+    "word": "SO",
+    "start": 145.279999,
+    "end": 145.709999,
+    "next": "SO STINGY THAT",
+    "previous": "THEY WERE SO"
+  },
+  {
+    "word": "STINGY",
+    "start": 146.459999,
+    "end": 146.659999,
+    "next": "STINGY THAT THEY",
+    "previous": "WERE SO STINGY"
+  },
+  {
+    "word": "THAT",
+    "start": 147.129999,
+    "end": 147.31999900000002,
+    "next": "THAT THEY WOULDN’T",
+    "previous": "SO STINGY THAT"
+  },
+  {
+    "word": "THEY",
+    "start": 147.31999900000002,
+    "end": 147.47999900000002,
+    "next": "THEY WOULDN’T EVEN",
+    "previous": "STINGY THAT THEY"
+  },
+  {
+    "word": "WOULDN’T",
+    "start": 147.47999900000002,
+    "end": 147.75999900000002,
+    "next": "WOULDN’T EVEN SHARE",
+    "previous": "THAT THEY WOULDN’T"
+  },
+  {
+    "word": "EVEN",
+    "start": 147.769999,
+    "end": 148.13999900000002,
+    "next": "EVEN SHARE ANY",
+    "previous": "THEY WOULDN’T EVEN"
+  },
+  {
+    "word": "SHARE",
+    "start": 148.13999900000002,
+    "end": 148.60999900000002,
+    "next": "SHARE ANY OF",
+    "previous": "WOULDN’T EVEN SHARE"
+  },
+  {
+    "word": "ANY",
+    "start": 148.649999,
+    "end": 148.97999900000002,
+    "next": "ANY OF THEIR",
+    "previous": "EVEN SHARE ANY"
+  },
+  {
+    "word": "OF",
+    "start": 148.97999900000002,
+    "end": 149.059999,
+    "next": "OF THEIR FOOD",
+    "previous": "SHARE ANY OF"
+  },
+  {
+    "word": "THEIR",
+    "start": 149.059999,
+    "end": 149.089999,
+    "next": "THEIR FOOD WITH",
+    "previous": "ANY OF THEIR"
+  },
+  {
+    "word": "FOOD",
+    "start": 149.44,
+    "end": 149.74,
+    "next": "FOOD WITH ME",
+    "previous": "OF THEIR FOOD"
+  },
+  {
+    "word": "WITH",
+    "start": 149.76,
+    "end": 149.82999999999998,
+    "next": "WITH ME OH",
+    "previous": "THEIR FOOD WITH"
+  },
+  {
+    "word": "ME",
+    "start": 149.96,
+    "end": 150.3,
+    "next": "ME OH WELL",
+    "previous": "FOOD WITH ME"
+  },
+  {
+    "word": "OH",
+    "start": 158.03,
+    "end": 158.26,
+    "next": "OH WELL I’LL",
+    "previous": "WITH ME OH"
+  },
+  {
+    "word": "WELL",
+    "start": 158.259999,
+    "end": 158.699999,
+    "next": "WELL I’LL HAVE",
+    "previous": "ME OH WELL"
+  },
+  {
+    "word": "I’LL",
+    "start": 158.71,
+    "end": 158.73000000000002,
+    "next": "I’LL HAVE TO",
+    "previous": "OH WELL I’LL"
+  },
+  {
+    "word": "HAVE",
+    "start": 159.679999,
+    "end": 160.10999900000002,
+    "next": "HAVE TO GO",
+    "previous": "WELL I’LL HAVE"
+  },
+  {
+    "word": "TO",
+    "start": 160.109999,
+    "end": 160.23999899999998,
+    "next": "TO GO HUNGRY",
+    "previous": "I’LL HAVE TO"
+  },
+  {
+    "word": "GO",
+    "start": 160.24,
+    "end": 160.43,
+    "next": "GO HUNGRY THIS",
+    "previous": "HAVE TO GO"
+  },
+  {
+    "word": "HUNGRY",
+    "start": 160.699999,
+    "end": 160.95999899999998,
+    "next": "HUNGRY THIS WINTER",
+    "previous": "TO GO HUNGRY"
+  },
+  {
+    "word": "THIS",
+    "start": 161.039999,
+    "end": 161.219999,
+    "next": "THIS WINTER IN",
+    "previous": "GO HUNGRY THIS"
+  },
+  {
+    "word": "WINTER",
+    "start": 161.25,
+    "end": 161.79,
+    "next": "WINTER IN THE",
+    "previous": "HUNGRY THIS WINTER"
+  },
+  {
+    "word": "IN",
+    "start": 163.389999,
+    "end": 163.52999899999998,
+    "next": "IN THE NEW",
+    "previous": "THIS WINTER IN"
+  },
+  {
+    "word": "THE",
+    "start": 163.55,
+    "end": 163.69,
+    "next": "THE NEW YEAR",
+    "previous": "WINTER IN THE"
+  },
+  {
+    "word": "NEW",
+    "start": 163.69,
+    "end": 163.95,
+    "next": "NEW YEAR I’LL",
+    "previous": "IN THE NEW"
+  },
+  {
+    "word": "YEAR",
+    "start": 163.95,
+    "end": 164.39,
+    "next": "YEAR I’LL MAKE",
+    "previous": "THE NEW YEAR"
+  },
+  {
+    "word": "I’LL",
+    "start": 164.82,
+    "end": 164.93,
+    "next": "I’LL MAKE A",
+    "previous": "NEW YEAR I’LL"
+  },
+  {
+    "word": "MAKE",
+    "start": 165,
+    "end": 165.34,
+    "next": "MAKE A RESOLUTION",
+    "previous": "YEAR I’LL MAKE"
+  },
+  {
+    "word": "A",
+    "start": 165.34,
+    "end": 165.45000000000002,
+    "next": "A RESOLUTION WHEN",
+    "previous": "I’LL MAKE A"
+  },
+  {
+    "word": "RESOLUTION",
+    "start": 165.45,
+    "end": 166.14999999999998,
+    "next": "RESOLUTION WHEN THE",
+    "previous": "MAKE A RESOLUTION"
+  },
+  {
+    "word": "WHEN",
+    "start": 167.02,
+    "end": 167.25,
+    "next": "WHEN THE TIMES",
+    "previous": "A RESOLUTION WHEN"
+  },
+  {
+    "word": "THE",
+    "start": 167.25,
+    "end": 167.37,
+    "next": "THE TIMES ARE",
+    "previous": "RESOLUTION WHEN THE"
+  },
+  {
+    "word": "TIMES",
+    "start": 167.44,
+    "end": 167.93,
+    "next": "TIMES ARE GOOD",
+    "previous": "WHEN THE TIMES"
+  },
+  {
+    "word": "ARE",
+    "start": 167.94,
+    "end": 168.14,
+    "next": "ARE GOOD I’LL",
+    "previous": "THE TIMES ARE"
+  },
+  {
+    "word": "GOOD",
+    "start": 168.2,
+    "end": 168.83999999999997,
+    "next": "GOOD I’LL REMEMBER",
+    "previous": "TIMES ARE GOOD"
+  },
+  {
+    "word": "I’LL",
+    "start": 169.22,
+    "end": 169.44,
+    "next": "I’LL REMEMBER TO",
+    "previous": "ARE GOOD I’LL"
+  },
+  {
+    "word": "REMEMBER",
+    "start": 169.46,
+    "end": 169.98000000000002,
+    "next": "REMEMBER TO SAVE",
+    "previous": "GOOD I’LL REMEMBER"
+  },
+  {
+    "word": "TO",
+    "start": 169.98,
+    "end": 170.16,
+    "next": "TO SAVE SOME",
+    "previous": "I’LL REMEMBER TO"
+  },
+  {
+    "word": "SAVE",
+    "start": 170.16,
+    "end": 170.60999999999999,
+    "next": "SAVE SOME FOOD",
+    "previous": "REMEMBER TO SAVE"
+  },
+  {
+    "word": "SOME",
+    "start": 170.61,
+    "end": 170.9,
+    "next": "SOME FOOD FOR",
+    "previous": "TO SAVE SOME"
+  },
+  {
+    "word": "FOOD",
+    "start": 170.9,
+    "end": 171.46,
+    "next": "FOOD FOR A",
+    "previous": "SAVE SOME FOOD"
+  },
+  {
+    "word": "FOR",
+    "start": 171.559999,
+    "end": 171.969999,
+    "next": "FOR A RAINY",
+    "previous": "SOME FOOD FOR"
+  },
+  {
+    "word": "A",
+    "start": 171.98,
+    "end": 172.10999999999999,
+    "next": "A RAINY DAY",
+    "previous": "FOOD FOR A"
+  },
+  {
+    "word": "RAINY",
+    "start": 172.11,
+    "end": 172.56,
+    "next": "RAINY DAY AND",
+    "previous": "FOR A RAINY"
+  },
+  {
+    "word": "DAY",
+    "start": 172.559999,
+    "end": 173.029999,
+    "next": "DAY AND THAT",
+    "previous": "A RAINY DAY"
+  },
+  {
+    "word": "AND",
+    "start": 177.059999,
+    "end": 177.299999,
+    "next": "AND THAT WAS",
+    "previous": "RAINY DAY AND"
+  },
+  {
+    "word": "THAT",
+    "start": 177.299999,
+    "end": 177.47999900000002,
+    "next": "THAT WAS THE",
+    "previous": "DAY AND THAT"
+  },
+  {
+    "word": "WAS",
+    "start": 177.509999,
+    "end": 177.70999899999998,
+    "next": "WAS THE STORY",
+    "previous": "AND THAT WAS"
+  },
+  {
+    "word": "THE",
+    "start": 177.71,
+    "end": 177.82000000000002,
+    "next": "THE STORY OF",
+    "previous": "THAT WAS THE"
+  },
+  {
+    "word": "STORY",
+    "start": 177.82,
+    "end": 178.39,
+    "next": "STORY OF THE",
+    "previous": "WAS THE STORY"
+  },
+  {
+    "word": "OF",
+    "start": 178.41,
+    "end": 178.57999999999998,
+    "next": "OF THE GRASSHOPPER",
+    "previous": "THE STORY OF"
+  },
+  {
+    "word": "THE",
+    "start": 178.57999999999998,
+    "end": 178.7,
+    "next": "THE GRASSHOPPER AND",
+    "previous": "STORY OF THE"
+  },
+  {
+    "word": "GRASSHOPPER",
+    "start": 178.709999,
+    "end": 179.659999,
+    "next": "GRASSHOPPER AND THE",
+    "previous": "OF THE GRASSHOPPER"
+  },
+  {
+    "word": "AND",
+    "start": 179.709999,
+    "end": 179.899999,
+    "next": "AND THE ANTS",
+    "previous": "THE GRASSHOPPER AND"
+  },
+  {
+    "word": "THE",
+    "start": 179.9,
+    "end": 180.03,
+    "next": "THE ANTS BY",
+    "previous": "GRASSHOPPER AND THE"
+  },
+  {
+    "word": "ANTS",
+    "start": 180.029999,
+    "end": 180.599999,
+    "next": "ANTS BY AESOP",
+    "previous": "AND THE ANTS"
+  },
+  {
+    "word": "BY",
+    "start": 180.74,
+    "end": 181.03,
+    "next": "",
+    "previous": "THE ANTS BY"
+  },
+  {
+    "word": "AESOP",
+    "start": 181.05,
+    "end": 181.69,
+    "next": "",
+    "previous": "ANTS BY AESOP"
+  }
+]

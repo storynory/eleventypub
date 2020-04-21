@@ -33,13 +33,14 @@
                 {%- endfor %}
 
             {% endif %}
-    </style>
 
-{% endif %}
+        {% endif %}
+    </style>
 {% endblock %}
 
 {% block content %}
-<div id="page" class="page">
-    {{ content | makespans | safe }}
-</div>
+    {{eleventyComputed.matchtimes}}
+    <div id="page" class="page">
+        {{ content | makespans | safe }}
+    </div>
 {% endblock %}

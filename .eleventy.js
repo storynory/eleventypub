@@ -6,44 +6,44 @@ const md = require("markdown-it");
 const tocgen = require("./tocgen");
 const makespans = require("./makespans");
 
-module.exports = function (eleventyConfig) {
-  // Copy the `img/` directory
+
+const pagestart = require("./pagestart");
+const pageend = require("./pageend");
 
 
-  eleventyConfig.addPassthroughCopy("src/resources");
-  eleventyConfig.addNunjucksFilter("makespans", makespans)
-  let nunjucksEnv = new nunjucks.Environment(
-    new nunjucks.FileSystemLoader("src/_includes")
-  );
-
-  nunjucksEnv.addFilter('mediaType', function (str) {
-    return mime.getType(path.extname(str).slice(1));
-  });
-
-  nunjucksEnv.addFilter('makeTocItemsForPage', function (page) {
-    return tocgen.makeTocItemsForPage(page);
-  });
+module.exports = function (eleventyConfig) { // Copy the `img/` directory
 
 
+    eleventyConfig.addPassthroughCopy("src/resources");
 
 
+    eleventyConfig.addNunjucksFilter("makespans", makespans)
+    eleventyConfig.addNunjucksFilter("pagestart", pagestart)
+    eleventyConfig.addNunjucksFilter("pageend", pageend)
 
 
-  eleventyConfig.setLibrary("njk", nunjucksEnv);
+    let nunjucksEnv = new nunjucks.Environment(new nunjucks.FileSystemLoader("src/_includes"));
 
-  let markdownIt = require("markdown-it")({
-    xhtmlOut: true,
-    html: true
-  })
-    .use(require('markdown-it-imsize'), { autofill: true });
+    nunjucksEnv.addFilter('mediaType', function (str) {
+        return mime.getType(path.extname(str).slice(1));
+    });
 
-  eleventyConfig.setLibrary("md", markdownIt);
+    nunjucksEnv.addFilter('makeTocItemsForPage', function (page) {
+        return tocgen.makeTocItemsForPage(page);
+    });
 
-  return {
-    passthroughFileCopy: true,
-    dir: {
-      input: "src",
-      output: "build/epub.epub/EPUB"
-    }
-  };
+
+    eleventyConfig.setLibrary("njk", nunjucksEnv);
+
+    let markdownIt = require("markdown-it")({xhtmlOut: true, html: true}).use(require('markdown-it-imsize'), {autofill: true});
+
+    eleventyConfig.setLibrary("md", markdownIt);
+
+    return {
+        passthroughFileCopy: true,
+        dir: {
+            input: "src",
+            output: "build/epub.epub/EPUB"
+        }
+    };
 };

@@ -1,23 +1,19 @@
 <smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
     <body>
-
         {%- for page in collections.pages -%}
-            {%-  if page.data.start %}
-                {% set i = 0 %}
-                {%- for time in times  -%}
+            {%- if (page.data.start) -%}
+                {%- for time in times -%}
 
-                    {%- if (time.start >= page.data.start ) and ( time.start <= page.data.end) %}
-                        {% set i = i + 1 %}
+                    {%- if (time.start >= page.data.start ) and ( time.end <= page.data.end) %}
+
                         <par>
-                            <text src="./{{page.fileSlug}}.xhtml#{{i }}"/>
-                            <audio src="./resources/audio/grasshopper-ants.m4a" clipBegin="{{time.start}}" clipEnd="{{time.end}}"></audio>
+                            <text src="./{{ page.fileSlug }}.xhtml#{{ i }}"/>
+                            <audio src="./resources/audio/grasshopper-ants.m4a" clipBegin="{{ time.start }}" clipEnd="{{ time.end }}"></audio>
                         </par>
 
                     {%- endif %}
                 {%- endfor %}
-
             {%- endif %}
         {%- endfor %}
-
     </body>
 </smil>

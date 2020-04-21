@@ -1,4 +1,0 @@
----
-title: "further reading"
-
----

@@ -1,8 +1,8 @@
 {
   "cover": {
-    "page": "cover/index.xhtml",
-    "src": "resources/images/under-construction.jpg",
-    "alt": "Cartoon bear with construction tools"
+    "page": "cover.xhtml",
+    "src": "resources/images/cover.jpg",
+    "alt": "grasshopper"
   },
   "toc": {
     "page": "toc/index.xhtml"
