@@ -2,6 +2,9 @@
 
 This is an [11ty](https://11ty.io) project template, configured to build an EPUB 3 fileset. It includes options to validate and run accessibility checks.
 
+Gentle is a good tool for audio syncs $ git clone https://github.com/marisademeglio/eleventypub.git
+
+
 ## Quickstart
 First, install [11ty](https://11ty.io).
 
